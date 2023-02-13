@@ -87,9 +87,42 @@ header-content h3 {
 .emailsignup button{
     background: #db0001;
     border: 0;
-outline: 0;
-color: white;
-font-size: 16px;
-cursor: pointer;
-padding: 30px 15px;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 30px 15px;
+}
+/* setting the features */ 
+.features {
+    padding: 50px 12%; 
+    font-size: 22px;
+}
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0  ;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.imgcol{
+    flex-basis: 50%;
+margin-bottom: 20px;
+}
+.imgcol img{
+    display: block;
+    width: 50%;
+    margin: auto;
+
+}
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
 }
