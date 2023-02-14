@@ -186,3 +186,11 @@ input[type="radio"]{
     transform: rotate(135deg);
 
 }
+.faq .emailsignup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small {
+    font-size: 13px;
+    
+}
